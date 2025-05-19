@@ -1,0 +1,159 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.15.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\DELL\.npmrc
+5 silly config load:file:C:\Users\DELL\AppData\Roaming\npm\etc\npmrc
+6 verbose title npm install axios react-quill react-toastify tailwindcss postcss autoprefixer
+7 verbose argv "install" "axios" "react-quill" "react-toastify" "tailwindcss" "postcss" "autoprefixer"
+8 verbose logfile logs-max:10 dir:C:\Users\DELL\Desktop\blog-editor-app\%AppData%\npm-cache\_logs\2025-05-18T11_07_01_027Z-
+9 verbose logfile C:\Users\DELL\Desktop\blog-editor-app\%AppData%\npm-cache\_logs\2025-05-18T11_07_01_027Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest axios@^1.9.0
+15 silly packumentCache full:https://registry.npmjs.org/axios cache-miss
+16 http cache https://registry.npmjs.org/axios 50ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/axios set size:660188 disposed:false
+18 silly fetch manifest react-quill@^2.0.0
+19 silly packumentCache full:https://registry.npmjs.org/react-quill cache-miss
+20 http cache https://registry.npmjs.org/react-quill 16ms (cache hit)
+21 silly packumentCache full:https://registry.npmjs.org/react-quill set size:296976 disposed:false
+22 silly fetch manifest react@^16 || ^17 || ^18
+23 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+24 http cache https://registry.npmjs.org/react 35ms (cache hit)
+25 silly packumentCache full:https://registry.npmjs.org/react set size:5700966 disposed:false
+26 silly fetch manifest react-dom@^16 || ^17 || ^18
+27 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+28 http cache https://registry.npmjs.org/react-dom 42ms (cache hit)
+29 silly packumentCache full:https://registry.npmjs.org/react-dom set size:7242755 disposed:false
+30 silly fetch manifest react-toastify@^11.0.5
+31 silly packumentCache full:https://registry.npmjs.org/react-toastify cache-miss
+32 http cache https://registry.npmjs.org/react-toastify 32ms (cache hit)
+33 silly packumentCache full:https://registry.npmjs.org/react-toastify set size:717317 disposed:false
+34 silly fetch manifest react@^18 || ^19
+35 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+36 http cache https://registry.npmjs.org/react 22ms (cache hit)
+37 silly packumentCache full:https://registry.npmjs.org/react set size:5700966 disposed:false
+38 silly fetch manifest react-dom@^18 || ^19
+39 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+40 http cache https://registry.npmjs.org/react-dom 27ms (cache hit)
+41 silly packumentCache full:https://registry.npmjs.org/react-dom set size:7242755 disposed:false
+42 silly fetch manifest autoprefixer@^10.4.21
+43 silly packumentCache full:https://registry.npmjs.org/autoprefixer cache-miss
+44 http cache https://registry.npmjs.org/autoprefixer 18ms (cache hit)
+45 silly packumentCache full:https://registry.npmjs.org/autoprefixer set size:1238679 disposed:false
+46 silly fetch manifest postcss@^8.5.3
+47 silly packumentCache full:https://registry.npmjs.org/postcss cache-miss
+48 http cache https://registry.npmjs.org/postcss 17ms (cache hit)
+49 silly packumentCache full:https://registry.npmjs.org/postcss set size:687240 disposed:false
+50 silly fetch manifest tailwindcss@^4.1.7
+51 silly packumentCache full:https://registry.npmjs.org/tailwindcss cache-miss
+52 http cache https://registry.npmjs.org/tailwindcss 38ms (cache hit)
+53 silly packumentCache full:https://registry.npmjs.org/tailwindcss set size:8978442 disposed:false
+54 silly placeDep ROOT autoprefixer@10.4.21 REPLACE for:  want: ^10.4.21
+55 silly placeDep ROOT axios@1.9.0 REPLACE for:  want: ^1.9.0
+56 silly placeDep ROOT postcss@8.5.3 REPLACE for:  want: ^8.5.3
+57 silly placeDep ROOT react-quill@2.0.0 REPLACE for:  want: ^2.0.0
+58 silly placeDep ROOT react-toastify@11.0.5 REPLACE for:  want: ^11.0.5
+59 silly placeDep ROOT tailwindcss@4.1.7 REPLACE for:  want: ^4.1.7
+60 silly reify moves {}
+61 silly audit bulk request {
+61 silly audit   '@types/quill': [ '1.3.10' ],
+61 silly audit   asynckit: [ '0.4.0' ],
+61 silly audit   browserslist: [ '4.24.5' ],
+61 silly audit   'call-bind': [ '1.0.8' ],
+61 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+61 silly audit   'call-bound': [ '1.0.4' ],
+61 silly audit   'caniuse-lite': [ '1.0.30001718' ],
+61 silly audit   clone: [ '2.1.2' ],
+61 silly audit   clsx: [ '2.1.1' ],
+61 silly audit   'combined-stream': [ '1.0.8' ],
+61 silly audit   'deep-equal': [ '1.1.2' ],
+61 silly audit   'define-data-property': [ '1.1.4' ],
+61 silly audit   'define-properties': [ '1.2.1' ],
+61 silly audit   'delayed-stream': [ '1.0.0' ],
+61 silly audit   'dunder-proto': [ '1.0.1' ],
+61 silly audit   'electron-to-chromium': [ '1.5.152' ],
+61 silly audit   'es-define-property': [ '1.0.1' ],
+61 silly audit   'es-errors': [ '1.3.0' ],
+61 silly audit   'es-object-atoms': [ '1.1.1' ],
+61 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+61 silly audit   escalade: [ '3.2.0' ],
+61 silly audit   eventemitter3: [ '2.0.3' ],
+61 silly audit   extend: [ '3.0.2' ],
+61 silly audit   'fast-diff': [ '1.1.2' ],
+61 silly audit   'follow-redirects': [ '1.15.9' ],
+61 silly audit   'form-data': [ '4.0.2' ],
+61 silly audit   'fraction.js': [ '4.3.7' ],
+61 silly audit   'function-bind': [ '1.1.2' ],
+61 silly audit   'functions-have-names': [ '1.2.3' ],
+61 silly audit   'get-intrinsic': [ '1.3.0' ],
+61 silly audit   'get-proto': [ '1.0.1' ],
+61 silly audit   gopd: [ '1.2.0' ],
+61 silly audit   'has-property-descriptors': [ '1.0.2' ],
+61 silly audit   'has-symbols': [ '1.1.0' ],
+61 silly audit   'has-tostringtag': [ '1.0.2' ],
+61 silly audit   hasown: [ '2.0.2' ],
+61 silly audit   'is-arguments': [ '1.2.0' ],
+61 silly audit   'is-date-object': [ '1.1.0' ],
+61 silly audit   'is-regex': [ '1.2.1' ],
+61 silly audit   'js-tokens': [ '4.0.0' ],
+61 silly audit   lodash: [ '4.17.21' ],
+61 silly audit   'loose-envify': [ '1.4.0' ],
+61 silly audit   'math-intrinsics': [ '1.1.0' ],
+61 silly audit   'mime-db': [ '1.52.0' ],
+61 silly audit   'mime-types': [ '2.1.35' ],
+61 silly audit   nanoid: [ '3.3.11' ],
+61 silly audit   'node-releases': [ '2.0.19' ],
+61 silly audit   'normalize-range': [ '0.1.2' ],
+61 silly audit   'object-is': [ '1.1.6' ],
+61 silly audit   'object-keys': [ '1.1.1' ],
+61 silly audit   parchment: [ '1.1.4' ],
+61 silly audit   picocolors: [ '1.1.1' ],
+61 silly audit   'postcss-value-parser': [ '4.2.0' ],
+61 silly audit   'proxy-from-env': [ '1.1.0' ],
+61 silly audit   quill: [ '1.3.7' ],
+61 silly audit   'quill-delta': [ '3.6.3' ],
+61 silly audit   react: [ '18.3.1' ],
+61 silly audit   'react-dom': [ '18.3.1' ],
+61 silly audit   'regexp.prototype.flags': [ '1.5.4' ],
+61 silly audit   scheduler: [ '0.23.2' ],
+61 silly audit   'set-function-length': [ '1.2.2' ],
+61 silly audit   'set-function-name': [ '2.0.2' ],
+61 silly audit   'source-map-js': [ '1.2.1' ],
+61 silly audit   'update-browserslist-db': [ '1.1.3' ],
+61 silly audit   autoprefixer: [ '10.4.21' ],
+61 silly audit   axios: [ '1.9.0' ],
+61 silly audit   postcss: [ '8.5.3' ],
+61 silly audit   'react-quill': [ '2.0.0' ],
+61 silly audit   'react-toastify': [ '11.0.5' ],
+61 silly audit   tailwindcss: [ '4.1.7' ]
+61 silly audit }
+62 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 558ms
+63 silly audit report {
+63 silly audit report   quill: [
+63 silly audit report     {
+63 silly audit report       id: 1098574,
+63 silly audit report       url: 'https://github.com/advisories/GHSA-4943-9vgg-gr5r',
+63 silly audit report       title: 'Cross-site Scripting in quill',
+63 silly audit report       severity: 'moderate',
+63 silly audit report       vulnerable_versions: '<=1.3.7',
+63 silly audit report       cwe: [Array],
+63 silly audit report       cvss: [Object]
+63 silly audit report     }
+63 silly audit report   ]
+63 silly audit report }
+64 silly packumentCache corgi:https://registry.npmjs.org/quill cache-miss
+65 http cache https://registry.npmjs.org/quill 9ms (cache hit)
+66 silly packumentCache corgi:https://registry.npmjs.org/quill set size:153675 disposed:false
+67 silly packumentCache corgi:https://registry.npmjs.org/react-quill cache-miss
+68 http cache https://registry.npmjs.org/react-quill 7ms (cache hit)
+69 silly packumentCache corgi:https://registry.npmjs.org/react-quill set size:63338 disposed:false
+70 verbose cwd C:\Users\DELL\Desktop\blog-editor-app
+71 verbose os Windows_NT 10.0.26100
+72 verbose node v22.15.0
+73 verbose npm  v10.9.2
+74 verbose exit 0
+75 info ok

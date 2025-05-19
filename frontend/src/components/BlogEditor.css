@@ -1,0 +1,109 @@
+.blog-editor-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    padding: 24px;
+    margin-bottom: 32px;
+}
+
+.blog-editor-container h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1a202c;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 8px;
+}
+
+.blog-editor-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.blog-editor-input {
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #2d3748;
+    transition: border-color 0.3s ease;
+}
+
+.blog-editor-input:focus {
+    outline: none;
+    border-color: #38b2ac; /* Teal accent */
+    box-shadow: 0 0 0 3px rgba(56, 178, 172, 0.1);
+}
+
+.blog-editor-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.blog-editor-quill {
+    background-color: #f9fafb;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+}
+
+.blog-editor-quill .ql-toolbar {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-color: #e2e8f0;
+    background-color: #ffffff;
+}
+
+.blog-editor-quill .ql-container {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-color: #e2e8f0;
+    min-height: 200px;
+    font-size: 16px;
+    color: #2d3748;
+}
+
+.blog-editor-tags {
+    font-size: 14px;
+    color: #718096;
+}
+
+.blog-editor-buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+}
+
+.save-draft-button {
+    background-color: #4a90e2; /* Vibrant blue */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.save-draft-button:hover {
+    background-color: #357abd;
+    transform: translateY(-1px);
+}
+
+.publish-button {
+    background-color: #f56565; /* Vibrant coral for publish */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.publish-button:hover {
+    background-color: #e53e3e;
+    transform: translateY(-1px);
+}
